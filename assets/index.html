@@ -6,13 +6,19 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="playlist">
+    <input type="text" placeholder="Nom de la playlist" id="nomPlaylist">
+    <button id="create"><i class="fas fa-plus-circle"></i></button>
+    <input type="text" placeholder="Genre" id="genrePlaylist">
+    <button id="genre"><i class="fas fa-plus-circle"></i></button>
+    <input type="text" placeholder="Lien Youtube" id="lien">
+    <button class="add">Add</button>
+</div>
+<button id="clone"><i class="fas fa-plus-circle"></i></button>
+<div id="scorpion"></div>
 
-<input type="text" placeholder="Nom de la playlist" id="nomPlaylist">
-<input type="text" placeholder="Lien Youtube" id="lien">
-<button id="add">Add</button>
 
-<p id="playlists"></p>
-
+<script src="https://kit.fontawesome.com/d8438e7f2f.js" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="js/app.js"></script>
 </body>

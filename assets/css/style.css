@@ -1,0 +1,14 @@
+
+
+
+body {
+    width: 100%;
+}
+
+.playlist {
+    width: 50%;
+    height: 100px;
+    background-color: lightcoral;
+    border: ridge 10px blueviolet;
+    border-radius: 20px;
+}
